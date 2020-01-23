@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.12/junit-4.12.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/cdisource/beancontainer/beancontainer-api/1.0-SNAPSHOT/beancontainer-api-1.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/cdisource/beancontainer/beancontainer-api/1.0-SNAPSHOT/beancontainer-api-1.0-SNAPSHOT-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/cdisource/beancontainer/beancontainer-resin-impl/1.0-SNAPSHOT/beancontainer-resin-impl-1.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/cdisource/beancontainer/beancontainer-resin-impl/1.0-SNAPSHOT/beancontainer-resin-impl-1.0-SNAPSHOT-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/caucho/resin/4.0.16/resin-4.0.16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/caucho/resin-javaee/4.0.16/resin-javaee-4.0.16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jboss/weld/se/weld-se/2.2.8.Final/weld-se-2.2.8.Final.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/core/deltaspike-core-impl/1.2.1/deltaspike-core-impl-1.2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/core/deltaspike-core-api/1.2.1/deltaspike-core-api-1.2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/cdictrl/deltaspike-cdictrl-api/1.2.1/deltaspike-cdictrl-api-1.2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/cdictrl/deltaspike-cdictrl-weld/1.2.1/deltaspike-cdictrl-weld-1.2.1.jar"/>
+</classpath>

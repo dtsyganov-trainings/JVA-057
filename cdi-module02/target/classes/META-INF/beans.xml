@@ -1,0 +1,23 @@
+<beans xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/beans_1_0.xsd">
+
+	<alternatives>
+<!--		<class>com.luxoft.cdi.example12.DummyIbanGenerator</class>-->
+<!--		<class>com.luxoft.cdi.example13.AlternativeGenerator</class>-->
+		<class>com.luxoft.cdi.example17.AmountsGenerator</class>
+	</alternatives>
+
+	<interceptors>
+		<class>com.luxoft.cdi.example18.SecurityInterceptor</class>
+		<class>com.luxoft.cdi.example19.LoggingInterceptor</class>
+		<class>com.luxoft.cdi.example19.LoggingDebugInterceptor</class>
+		<class>com.luxoft.cdi.example19.SecurityInterceptor</class>
+	</interceptors>
+
+	<decorators>
+		<class>com.luxoft.cdi.example21.AccountFacadeDecorator</class>
+	</decorators>
+
+</beans>
